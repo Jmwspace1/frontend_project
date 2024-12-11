@@ -4,6 +4,43 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>갤러리</title>
+  <style type="text/css">
+    p {color: aqua;}
+  </style>
+  <script src="자바스크립트 파일.js"></script>
+  <script>
+    document.write('자바스크립트');
+  </script>
+  <script>
+    prompt('출력 페이지 수를 입력하세요!','');
+    alert('자바스크립트');
+    document.write('자바스크립트');
+    console.log('자바스크립트');
+    confirm('정말 삭제 하시겠습니까?');
+  </script>
+  <script>
+    // number
+    var num1 = 10;
+    var num2 = 10.2;
+    var num3 = 1e+2;
+    console.log(num1 + "," + num2 + "," + num3);
+    //string
+    var str1 = '문자';
+    var str2 = "문자는 '문자'";
+    var str3 = '문자는 "문자"';
+    var str4 = ' you\'re too smart...';
+    console.log(str1 + ',' + str2 + ',' + str3 + ','+ str4);
+    //boolean
+    var storage;
+    console.log(storage);
+    //null
+    var gnb = document.getElementById('gnb');
+    //typeof
+    var type1 = 10;
+    var type2 = '문자';
+    var type3 = true;
+    console.log(typeof tpe1 + ',' + typeof type2 + ',' + typeof type3);
+  </script>
 </head>
 <body>
   <h1 id="heading">자바스크립트</h1>
@@ -13,6 +50,27 @@
     heading.onclick = function() {
       heading.style.color = "red";
     }
+  </script>
+  <script>
+    document.write(num1 + num2);
+  </script>
+  <script>
+    var num = 10;
+    var str = 'javascript';
+    var temp = true;
+    document.write(num + '<br>' + str + '<br>' + temp);
+  </script>
+  <script>
+    var age = prompt('나이입력','');
+    var admissionFee = '';
+    if (age < 13|| age >= 65) {
+      admissionFee = '2000원';
+    } else if (age >= 13 && age < 20) {
+      admissionFee = '4000원';
+    } else {
+      admissionFee = '6000원';
+    }
+    document.write(admissionFee);
   </script>
   <h1>갤러리 보관소</h1>
   <a href="file:///C:/Users/Administrator/Desktop/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4%20%EC%82%AC%EC%9D%B4%ED%8A%B8.html#">포트폴리오 사이트</a>
